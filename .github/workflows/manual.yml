@@ -51,5 +51,6 @@ jobs:
         cp blueprint/*.rst slices-documentation/blueprint
         cp -r blueprint/images/ slices-documentation/blueprint/
         cd slices-documentation
+        git add .
         
     
