@@ -43,8 +43,12 @@ jobs:
       if: steps.verify_diff.outputs.changed == 'true'
       run:
         git push
+  pushrst2imec:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@blueprint-sk
     - name: PushRST
-      if: steps.verify_diff.outputs.changed == 'true'
+      if: convertmd2rst.steps.verify_diff.outputs.changed == 'true'
       run: |
         cd ..
         git clone --verbose https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
