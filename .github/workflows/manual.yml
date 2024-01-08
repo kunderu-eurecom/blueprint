@@ -49,7 +49,7 @@ jobs:
         cd ..
         git config user.name "skunderu"
         git config user.email "surya-kumar.kunderu@lip6.fr"
-        git clone -b blueprint-sk https://gitlab.ilabt.imec.be/slices/slices-documentation
+        git clone https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
         cd slices-documentation
         
     
