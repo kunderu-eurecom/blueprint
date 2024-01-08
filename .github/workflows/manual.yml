@@ -24,7 +24,7 @@ jobs:
       with:
        cache: 'pip'
     - run: pip install m2r
-    - run: python3 ./do-not-delete/md12rst.py --overwrite
+    - run: python3 md2rst.py --overwrite
     
     - name: Check if there are any changes
       id: verify_diff
