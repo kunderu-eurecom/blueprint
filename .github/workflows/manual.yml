@@ -50,11 +50,6 @@ jobs:
         git config user.name "skunderu"
         git config user.email "surya-kumar.kunderu@lip6.fr"
         git clone -b blueprint-sk https://gitlab.ilabt.imec.be/slices/slices-documentation
-        cp blueprint/*.rst slices-documentation/blueprint
-        cp -r blueprint/images/ slices-documentation/blueprint/
         cd slices-documentation
-        git add .
-        git commit -m "pushing latest changes of blueprint documentation"
-        git push
         
     
