@@ -1,4 +1,4 @@
-# SLICES-RI blueprint
+# SLICES-RI Blueprint
 
 
 SLICES RI is defined as a scientific instrument to support the discovery process 
