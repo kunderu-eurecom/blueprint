@@ -10,4 +10,3 @@
 * **RAN:** Radio Access Network
 * **RU:**: Radio Unit
 * **UE:** User Equipment
-
