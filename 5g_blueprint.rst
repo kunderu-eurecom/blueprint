@@ -1,5 +1,5 @@
 
-5G blueprint
+5G Blueprint
 ============
 
 5G has introduced the concept of modularization in its design. With this
