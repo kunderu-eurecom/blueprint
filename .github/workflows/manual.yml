@@ -47,6 +47,7 @@ jobs:
       if: steps.verify_diff.outputs.changed == 'true'
       run: |
         cd ..
+        git clone --verbose https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
 
         
     
