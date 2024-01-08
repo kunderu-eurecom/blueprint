@@ -48,6 +48,6 @@ jobs:
       run: |
         cd ..
         git clone --verbose https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
-        cd slices-documentation
+        cp blueprint/*.rst slices-documentation/blueprint
         
     
