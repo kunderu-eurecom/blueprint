@@ -51,6 +51,8 @@ jobs:
         cp blueprint/*.rst slices-documentation/blueprint
         cp -r blueprint/images/ slices-documentation/blueprint/
         cd slices-documentation
+        git config user.name "kunderu-eurecom"
+        git config user.email "kunderu@eurecom.fr"
         git add .
         git commit -m "pushing latest changes of blueprint documentation"
         
