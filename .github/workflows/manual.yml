@@ -46,7 +46,6 @@ jobs:
   pushrst2imec:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@blueprint-sk
     - name: PushRST
       if: convertmd2rst.steps.verify_diff.outputs.changed == 'true'
       run: |
