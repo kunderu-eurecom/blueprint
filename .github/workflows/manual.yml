@@ -52,5 +52,6 @@ jobs:
         cp -r blueprint/images/ slices-documentation/blueprint/
         cd slices-documentation
         git add .
+        git commit -m "pushing latest changes of blueprint documentation"
         
     
