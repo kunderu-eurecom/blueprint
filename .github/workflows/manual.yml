@@ -44,9 +44,10 @@ jobs:
       run:
         git push
   pushrst2imec:
+  runs-on: ubuntu-latest
     steps:
     - name: PushRST
-      if: convertmd2rst.steps.verify_diff.outputs.changed == 'true'
+      if: steps.verify_diff.outputs.changed == 'true'
       run: |
         cd ..
         git clone --verbose https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
