@@ -47,9 +47,6 @@ jobs:
       if: steps.verify_diff.outputs.changed == 'true'
       run: |
         cd ..
-        git config user.name "skunderu"
-        git config user.email "surya-kumar.kunderu@lip6.fr"
-        git clone https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
-        cd slices-documentation
+
         
     
