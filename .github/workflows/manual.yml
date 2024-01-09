@@ -53,15 +53,14 @@ jobs:
         git config user.name ${{ secrets.IMEC_USER }}
         git config user.email ${{ secrets.IMEC_EMAIL }}
         git add .
-    - name: Check if there are any changes w.r.t IMEC repo
+    - name: CheckAndPush w.r.t IMEC repo
       id: verify_imec_diff
       # This is required in edge case where a previous push to IMEC fails for any reason
       run: |
         git diff --cached --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
-    - name: PushRST2IMEC
-      if: steps.verify_imec_diff.outputs.changed == 'true'
-      run: |        
-        git commit -m "pushing latest changes of blueprint documentation"
-        git push
+        if: steps.verify_imec_diff.outputs.changed == 'true'
+        run: |        
+          git commit -m "pushing latest changes of blueprint documentation"
+          git push
         
     
