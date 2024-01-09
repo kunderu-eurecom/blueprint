@@ -58,7 +58,7 @@ jobs:
       # This is required in edge case where a previous push to IMEC fails for any reason
       run: |
         git diff --cached --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
-        if: steps.verify_imec_diff.outputs.changed == 'true'
+        if: verify_imec_diff.outputs.changed == 'true'
         run: |        
           git commit -m "pushing latest changes of blueprint documentation"
           git push
