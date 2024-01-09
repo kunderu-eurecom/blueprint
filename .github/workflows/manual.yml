@@ -46,7 +46,7 @@ jobs:
       if: steps.verify_diff.outputs.changed == 'true'
       run: |
         cd ..
-        git clone -b blueprint-sk https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
+        git clone https://skunderu:YsjQKwDgRD7R4Gf5SZqG@gitlab.ilabt.imec.be/slices/slices-documentation
         cp blueprint/*.rst slices-documentation/blueprint
         cp -r blueprint/images/ slices-documentation/blueprint/
         cd slices-documentation
