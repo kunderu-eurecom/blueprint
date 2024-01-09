@@ -26,7 +26,7 @@ jobs:
        cache: 'pip'
     - run: pip install m2r
     - run: python3 md2rst.py --overwrite --parse_relative_links
-    
+    - run: git add .
     - name: Check if there are any changes
       id: verify_diff
       run: |
@@ -37,7 +37,6 @@ jobs:
       run: |
         git config user.name "kunderu-eurecom"
         git config user.email "kunderu@eurecom.fr" 
-        git add .
         git commit -m "converting markdown to rst"
     - name: Push
       if: steps.verify_diff.outputs.changed == 'true'
