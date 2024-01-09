@@ -88,7 +88,6 @@ support. To be considered as valid, **research must be reproducible**.
 > This blueprint uses the ACM terminology for reproducibility in experimental
 > science[[^badges]].
 
-
 ### Type 1 studies: Vertical service integration and testing
 
 Researchers use the infrastructure as a layered architecture that they can
