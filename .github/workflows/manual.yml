@@ -35,8 +35,8 @@ jobs:
     - name: Commit
       if: steps.verify_diff.outputs.changed == 'true'
       run: |
-        git config user.name "kunderu-eurecom"
-        git config user.email "kunderu@eurecom.fr" 
+        git config user.name ${{ secrets.MY_USER }}
+        git config user.email ${{ secrets.MY_EMAIL }} 
         git commit -m "converting markdown to rst"
     - name: Push
       if: steps.verify_diff.outputs.changed == 'true'
