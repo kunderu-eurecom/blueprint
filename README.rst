@@ -29,12 +29,20 @@ into the operation phase (continuous integration and deployment strategy that wi
 This blueprint is meant to continuously evolve in order to onboard lessons learned and
 recommendations form the community, both academia and industry.
 
+`The blueprint concept and philosophy <./docs/CONCEPT.md>`_
+---------------------------------------------------------------
 
-* `The blueprint concept and philosophy <./docs/CONCEPT.md>`_
-* `5G Blueprint <./docs/5G_BLUEPRINT.md>`_
-* `Contact <./docs/CONTACT.md>`_
-* `Contributors <./docs/CONTRIBUTORS.md>`_
-* `Lexicon <./docs/LEXICON.md>`_
+`5G Blueprint <./docs/5G_BLUEPRINT.md>`_
+--------------------------------------------
+
+`Contact <./docs/CONTACT.md>`_
+----------------------------------
+
+`Contributors <./docs/CONTRIBUTORS.md>`_
+--------------------------------------------
+
+`Lexicon <./docs/LEXICON.md>`_
+----------------------------------
 
 References
 ----------
