@@ -30,7 +30,7 @@ This blueprint is meant to continuously evolve in order to onboard lessons learn
 recommendations form the community, both academia and industry.
 
 
-* `The blueprint concept and philosophy <./docs/Concept.md>`_
+* `The blueprint concept and philosophy <./docs/CONCEPT.md>`_
 * `5G Blueprint <./docs/5G_BLUEPRINT.md>`_
 * `Contact <./docs/CONTACT.md>`_
 * `Contributors <./docs/CONTRIBUTORS.md>`_
