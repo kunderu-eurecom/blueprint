@@ -28,10 +28,14 @@ into the operation phase (continuous integration and deployment strategy that wi
 This blueprint is meant to continuously evolve in order to onboard lessons learned and
 recommendations form the community, both academia and industry.
 
-* [[The blueprint concept and philosophy](Concept.md)]
-* [[5G Blueprint](5G_BLUEPRINT.md)]
-* [[Contact](CONTACT.md)]
-* [[Contributors](CONTRIBUTORS.md)]
-* [[Lexicon](LEXICON.md)]
+* [The blueprint concept and philosophy](Concept.md)
+* [5G Blueprint](5G_BLUEPRINT.md)
+* [Contact](CONTACT.md)
+* [Contributors](CONTRIBUTORS.md)
+* [Lexicon](LEXICON.md)
 
+## References
+[^refESFRI]: https://www.esfri.eu/forum
+[^slices]: https://www.slices-ri.eu/, accessed December 12, 2023.
+[^slices2]:Serge Fdida, Nikos Makris, Thanasis Korakis, Raffaele Bruno, Andrea Passarella, Panayiotis Andreou, Bartosz Belter, Cédric Crettaz, Walid Dabbous, Yuri Demchenko, Raymond Knopp,SLICES, a scientific instrument for the networking community, Computer Communications, Volume 193, 2022, Pages 189-203.
 
