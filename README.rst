@@ -4,7 +4,7 @@ SLICES BluePrint
 
 SLICES RI is defined as a scientific instrument to support the discovery process 
 related to the future, emerging digital infrastructures.
-It is a joint investment between the EU and the member states, on the ESFRI[[^refESFRI]]roadmap since 2021.
+It is a joint investment between the EU and the member states, on the ESFRI[\ [#fn-refesfri]_\ ]roadmap since 2021.
 
 SLICES avoids fragmentation and achieves critical mass by bringing together research communities related to 
 networking protocols, radio technologies, data
@@ -12,7 +12,7 @@ collection, parallel and distributed computing and in particular cloud and
 edge-based computing architectures and services.
 
 SLICES is a flexible platform designed to support large-scale, experimental
-research focused on all domains related to digital infrastructures [[^slices]], [[^slices2]].
+research focused on all domains related to digital infrastructures [\ [#fn-slices]_\ ], [\ [#fn-slices2]_\ ].
 
 As oppose to similar initiatives worldwide, SLICES is sustainable with a roadmap defined until 2040.
 
@@ -30,8 +30,16 @@ This blueprint is meant to continuously evolve in order to onboard lessons learn
 recommendations form the community, both academia and industry.
 
 
-* [\ `The blueprint concept and philosophy <Concept.md>`_\ ]
-* [\ `5G Blueprint <5G_BLUEPRINT.md>`_\ ]
-* [\ `Contact <CONTACT.md>`_\ ]
-* [\ `Contributors <CONTRIBUTORS.md>`_\ ]
-* [\ `Lexicon <LEXICON.md>`_\ ]
+* `The blueprint concept and philosophy <Concept.md>`_
+* `5G Blueprint <5G_BLUEPRINT.md>`_
+* `Contact <CONTACT.md>`_
+* `Contributors <CONTRIBUTORS.md>`_
+* `Lexicon <LEXICON.md>`_
+
+References
+----------
+
+
+.. [#fn-refesfri] https://www.esfri.eu/forum
+.. [#fn-slices] https://www.slices-ri.eu/, accessed December 12, 2023.
+.. [#fn-slices2] Serge Fdida, Nikos Makris, Thanasis Korakis, Raffaele Bruno, Andrea Passarella, Panayiotis Andreou, Bartosz Belter, Cédric Crettaz, Walid Dabbous, Yuri Demchenko, Raymond Knopp,SLICES, a scientific instrument for the networking community, Computer Communications, Volume 193, 2022, Pages 189-203.
